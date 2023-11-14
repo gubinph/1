@@ -5,7 +5,7 @@ words = ["python", "java", "ruby", "javascript", "html", "css", "php", "swift"]
 word = random.choice(words)
 guessed = "_" * len(word)
 guessed_letters = []
-attempts = 1
+attempts = 2
 
 print("Welcome to Hangman!")
 print(guessed)
